@@ -1,5 +1,3 @@
-Checking Server Utilization
-
 #!/bin/bash
 date;
 echo "uptime:"
@@ -29,5 +27,5 @@ echo "--------------------"
 echo "vmstat:"
 vmstat 1 5
 
-
-Reference : http://www.tecmint.com/basic-shell-programming-part-ii/
+# Title : Checking Server Utilization
+# Reference : http://www.tecmint.com/basic-shell-programming-part-ii/

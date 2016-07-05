@@ -1,5 +1,3 @@
-Check Disk Space
-
 #!/bin/bash
 MAX=5
 PART=/dev/xvda1
@@ -9,4 +7,5 @@ if [ $USE -gt $MAX ]; then
   echo "Running out of disk space"
 fi
 
-Reference : http://www.tecmint.com/basic-shell-programming-part-ii/
+#Title : Check Disk Space
+#Reference : http://www.tecmint.com/basic-shell-programming-part-ii/
